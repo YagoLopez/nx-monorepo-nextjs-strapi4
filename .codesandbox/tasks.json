@@ -1,0 +1,15 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+  "tasks": {
+    "npx nx run-many --target=serve": {
+      "name": "npx nx run-many --target=serve",
+      "command": "npx nx run-many --target=serve",
+      "runAtStart": true
+    }
+  }
+}
